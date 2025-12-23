@@ -1,40 +1,31 @@
-<p align="center">  
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/t3-oss/create-t3-app/99286f37324330ecdf75132fae1f246440a88035/www/public/images/t3-light.svg">
-  <img src="https://raw.githubusercontent.com/t3-oss/create-t3-app/99286f37324330ecdf75132fae1f246440a88035/www/public/images/t3-dark.svg" width="130" height="130" alt="Logo for T3">
-  </picture>
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shadcn/ui/main/apps/www/public/android-chrome-512x512.png">
-  <img src="https://raw.githubusercontent.com/shadcn/ui/main/apps/www/public/android-chrome-512x512.png" width="130" height="130" alt="Logo for shadcn-ui">
-  </picture>
-</p>
+# AccessMap Admin
 
-# t3-shadcn-ui
+Admin dashboard for **AccessMap** — manage accessibility POIs, review user reports, and run moderation workflows.
 
-Do you like the [T3 Stack](https://create.t3.gg/)? Do you like [shadcn/ui components](https://ui.shadcn.com/)? Then this is the project starter for you.
-This project takes the backend of T3 and combines it with the frontend of shadcn/ui.
+**Live:** https://accessmap-admin.vercel.app
 
-- [T3](https://github.com/t3-oss/create-t3-app)
-- [shadcn/ui](https://github.com/shadcn/ui)
+---
 
-# Getting started
+## What this app does
 
-Clone, install, migrate, and run the project.
+- Review + resolve **accessibility reports**
+- Manage **places/POIs** (ramps, elevators, step-free entries)
+- Moderate **user-submitted updates**
+- Basic analytics overview (counts, trends)
 
-```
-git clone https://github.com/zeevo/t3-shadcn-ui.git
-cd t3-shadcn-ui
-npm run db:push
+---
+
+## Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS + shadcn/ui
+
+---
+
+## Local Setup (Windows/macOS/Linux)
+
+```bash
+npm install
 npm run dev
-```
 
-# Opinionated Changes We Have Made
-
-- DrizzleORM over Prisma
-- Postgres over Planetscale/MySQL
-- Added `next-themes`
-- "New York" style shadcn/ui
-
-## How do I deploy this?
-
-Follow T3 deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
